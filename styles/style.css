@@ -7,7 +7,7 @@
 }
 
 
-div {
+.welcome {
     position: relative;
     top: 50px;
     padding-top: 40px;
@@ -23,4 +23,21 @@ div {
     border: 5px solid #8E8E8E;
     border-radius: 15px;
 
+}
+button {
+    position: relative;
+    margin: auto;
+//color: #eabcfb;
+    border-width: 0;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #DFDFDF;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    top: 70px;
+}
+button:hover {
+    border: 2px solid #8E8E8E;
+    padding: 3px;
+    font-weight: bold;
 }
