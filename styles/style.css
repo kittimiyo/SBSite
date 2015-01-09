@@ -24,10 +24,10 @@
     border-radius: 15px;
 
 }
-button {
+input[type=button] {
+    display: block;
     position: relative;
-    margin: auto;
-//color: #eabcfb;
+    margin: 0 auto;
     border-width: 0;
     padding: 5px;
     border-radius: 2px;
@@ -36,7 +36,7 @@ button {
     font-family: 'Raleway', sans-serif;
     top: 70px;
 }
-button:hover {
+input[type=button]:hover {
     border: 2px solid #8E8E8E;
     padding: 3px;
     font-weight: bold;
