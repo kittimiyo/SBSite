@@ -1,0 +1,25 @@
+#sudoku {
+    border: black solid 1px;
+    font-size: 30px;
+    //display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 150px;
+}
+td {
+    border: black solid 1px;
+    border-spacing: 0;
+    position: relative;
+    width: 136px;
+    height: 136px;
+    text-align: center;
+    left: -1px;
+}
+th {
+    border: black solid 1px;
+    width: 1258px;
+}
+.invis {
+    border: 0;
+    width: 414px;
+}
