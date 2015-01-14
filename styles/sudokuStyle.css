@@ -1,25 +1,70 @@
 #sudoku {
-    border: black solid 1px;
     font-size: 30px;
-    //display: block;
     position: relative;
     margin: 0 auto;
     top: 150px;
+    width: 363px;
 }
+
+#sudoku div table{
+    float: left;
+    border: black solid 1px;
+}
+
 td {
     border: black solid 1px;
     border-spacing: 0;
     position: relative;
-    width: 136px;
-    height: 136px;
+    table-layout: fixed;
+    width: 37px;
+    height: 37px;
     text-align: center;
-    left: -1px;
 }
+/*
+
 th {
     border: black solid 1px;
-    width: 1258px;
+    width: 369px;
 }
-.invis {
-    border: 0;
-    width: 414px;
+*/
+
+table {
 }
+
+
+table, th{
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+
+
+td table {
+    border: black solid 2px;
+}
+
+/*
+.t {
+position: relative;
+    //float: left;
+}
+.mr {
+position: relative;
+    //top: -4px;
+}
+.b {
+position: relative;
+    //top: -7px;
+}
+.l {
+position: relative;
+    //left: -1px;
+}
+.mc {
+position: relative;
+    //left: -4px;
+}
+.r {
+position: relative;
+    //left: -7px;
+}
+*/
