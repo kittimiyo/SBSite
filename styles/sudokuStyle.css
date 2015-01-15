@@ -31,6 +31,14 @@ th {
 table {
 }
 
+input {
+    width: 37px;
+    height: 37px;
+    border: 0;
+    padding: 0;
+    position: relative;
+    top: -1px;
+}
 
 table, th{
     border: black solid 1px;
